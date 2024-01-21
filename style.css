@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+}
+#header{
+     width: 100%;
+}
+ #FAQs{
+    color: rgb(56, 3, 56);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 0px 15px;
+}
+ #box_width{
+    /* border: 2px solid red; */
+    display: flex;
+     justify-content: center;
+     background-color: rgb(248, 227, 248);
+     height: 380px;
+}
+ #all_box{
+    /* border: 4px solid blue; */
+    /* border: 2px solid white; */
+    width: 440px;
+    height: 430px;
+    border-radius: 15px;
+    padding: 0px 22px;
+    position:relative;
+    background-color: white;
+    margin-top: -125px;
+ }
+ #star{
+     display: flex;
+}
+#info_1{
+    color: rgb(56, 3, 56);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    color: rgb(56, 3, 56);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+}
+.info:hover{
+    cursor: pointer;
+    color: purple;
+ }
+.info_box{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(242, 242, 242);
+    padding: 8px;
+}
+#describe{
+    font-size: 12px;
+    color: gray;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+@media (max-width:480px){
+    #all_box{
+        width: 300px;
+        height: 500px;
+    }
+}
+@media (max-width:380px){
+    #all_box{
+        width: 215px;
+        height: 570px;
+    }
+}
+@media (max-width:480px){
+    #box_width{
+        height: 450px;
+    }
+}
+@media (max-width:360px){
+    #box_width{
+        height: 660px;
+    }
+}
