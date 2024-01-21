@@ -67,9 +67,9 @@ body{
         width: 300px;
         height: 500px;
     }
-    /* #header{
-        height: 300px;
-    } */
+    #box_width{
+        height: 520px;
+    }
 }
 @media (max-width:380px){
     #all_box{
@@ -79,16 +79,18 @@ body{
     }
     #star{
         height: 30px;
+        margin: 8px;
     }
     #FAQs{
         margin: 0px;
     }
+   
 }
-@media (max-width:480px){
+/* @media (max-width:480px){
     #box_width{
         height: 450px;
     }
-}
+} */
 @media (max-width:360px){
     #box_width{
         height: 660px;
@@ -99,7 +101,6 @@ body{
         margin-top: -35px;
     }
     #box_width{
-        height: 660px;
+        height: 600px;
     }
-  
 }
