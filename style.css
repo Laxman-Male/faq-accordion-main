@@ -74,7 +74,7 @@ body{
 @media (max-width:380px){
     #all_box{
         width: 215px;
-        height: 570px;
+        height: 530px;
         margin-top: -55px;
     }
     #star{
@@ -91,7 +91,7 @@ body{
 }
 @media (max-width:360px){
     #box_width{
-        height: 700px;
+        height: 660px;
     }
 }
 @media (max-width: 275px){
